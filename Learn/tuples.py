@@ -29,4 +29,29 @@ animal_tuple_new=animal_tuple + ('swamp',False)
 print(animal_tuple_new)
 
 
+#Duplicates -it allow duplicates as they can be differentiated by their index
+animal_tuple_new=animal_tuple_new+(False,)
+print(animal_tuple_new)
 
+# other methods
+length_of_tuple=len(animal_tuple_new)
+print(f'No. of attribute:{length_of_tuple}')
+
+#count
+count_false=animal_tuple_new.count(False)
+print(count_false)
+
+#tuple unpacking
+animal_tuple =("yellow anaconda","Reptile",30.5,20)
+name,group,av_weight,av_lifespan=animal_tuple
+print(f"name:{name}")
+print(f"group:{group}")
+
+
+
+
+
+
+
+
+#source explore ai :data science academy-tuple course
