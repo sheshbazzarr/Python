@@ -1,5 +1,5 @@
 #creat tuples
-animal_tuple=('yellow anaconda","Reptile",30,5,20)
+animal_tuple=("yellow anaconda","Reptile",30,5,20)
 print(animal_type)
 
 #create tuple from list
