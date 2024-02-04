@@ -51,3 +51,7 @@ print(mammals_copy)
 
 mammals_copy.insert(2,'tiger')
 print(mammals_copy)
+
+mammals_copy[1]="cheetah"
+print(mammals_copy)
+
