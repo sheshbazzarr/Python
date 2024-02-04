@@ -16,3 +16,10 @@ fynbos_familes={'erica':{'cape floristic region':670,'worldwide':4500},
                  }
 
 print(fynbos_familes)
+
+
+#Accessing values in a nested dictionary 
+
+print(fynbos_familes['erica'])
+
+print(fynbos_familes['protea']['cape floristic region'])
