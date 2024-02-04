@@ -39,3 +39,15 @@ print(second_item)
 animal_combined=["lion","elephant","Dolphin","eagle","penguin"]
 sliced_list=animal_combined[2:5]
 print(sliced_list)
+
+#adding elements
+
+mammals_copy=mammals.copy()
+mammals_copy.append(['cat','dog'])
+print(mammals_copy)
+
+mammals_copy.extend(['bear','horse'])
+print(mammals_copy)
+
+mammals_copy.insert(2,'tiger')
+print(mammals_copy)
