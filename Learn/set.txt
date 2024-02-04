@@ -1,0 +1,35 @@
+create set is very easy 
+1.set_example={}-empty set
+2.set_exaple2=set([])
+
+only unique elements and any duplicates in the lsit removed
+
+Duplicates :--->>>
+do not allow duplicates 
+items with the same value are considered to be the same thing and only be listed once
+
+set are mutable .they support various methods for addding and removing elements
+
+Adding elements
+add() --->>>>this adds a single elements to the set
+update()this add elements from an iterable ,such as list and other sets to the set 
+
+
+:::::-----Removing----Elements::::::
+remove()-->this removes a specified element and it will raise an error if the element is not presentdiscard():this removes a specified element but it will nor raise an an error if the element is not present
+
+
+Set operations
+union()
+intersection()
+difference()
+issubset()
+
+methodes 
+len()
+clear()
+
+
+
+
+source explore ai acedmy:::
