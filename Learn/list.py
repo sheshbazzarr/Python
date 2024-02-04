@@ -30,3 +30,12 @@ print(animals_grouped
 #indexing
 first_index=birds.index("eagle")
 print(first_index)
+
+#accessing
+second_item=birds[1]
+print(second_item)
+
+#slicing
+animal_combined=["lion","elephant","Dolphin","eagle","penguin"]
+sliced_list=animal_combined[2:5]
+print(sliced_list)
