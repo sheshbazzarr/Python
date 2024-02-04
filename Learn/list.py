@@ -10,3 +10,18 @@ print(birds)
 range_list=list(range(0,5,2))
 print(range_list)
 
+#print list print(birds) list type type(birds)
+print(birds)
+type(birds)
+
+#copying a list
+mammals_copy=mammals.copy()
+print(mammals_copy)
+
+# Nested lists
+als_grouped=[mamals,birds]
+print(als_grouped)
+
+
+animals_grouped=[["lion","elephant","dolphin"],["eagle","penguin","parrot"]]
+print(animals_grouped)
