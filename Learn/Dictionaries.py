@@ -23,3 +23,16 @@ print(fynbos_familes)
 print(fynbos_familes['erica'])
 
 print(fynbos_familes['protea']['cape floristic region'])
+
+protea_species=fynbos_familes['protea']
+print(protea_species)
+
+
+# extract keys
+key_list=list(protea_species.keys())
+print(key_list)
+
+#extract values() method to extract a values object,which can also be converted to a list in order to access the elements.
+
+value_list=list(protea_species.values())
+print(value_list)
