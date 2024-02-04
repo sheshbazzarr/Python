@@ -19,9 +19,14 @@ mammals_copy=mammals.copy()
 print(mammals_copy)
 
 # Nested lists
-als_grouped=[mamals,birds]
+als_grouped=[mammals,birds]
 print(als_grouped)
 
 
 animals_grouped=[["lion","elephant","dolphin"],["eagle","penguin","parrot"]]
-print(animals_grouped)
+print(animals_grouped
+      )
+
+#indexing
+first_index=birds.index("eagle")
+print(first_index)
