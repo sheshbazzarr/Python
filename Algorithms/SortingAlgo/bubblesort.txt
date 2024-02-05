@@ -1,0 +1,1 @@
+ bubble up the largest elements withing a list to the end of the lsit,then the second largest to the second to last postion in the list ,and so on each bubble up takes a full sweep throguht the list.
