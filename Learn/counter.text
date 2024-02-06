@@ -1,0 +1,16 @@
+list of methods
+
+elements()
+most_common()
+substruct()
+copy()
+clear()
+update(iterale or mapping)
+values() this methods returns an iterator over the counts of elements
+items() teutns key ,value tuple pairs in this case it returns  a view object contianing (element count)pairs .this can be paricularyly usefull for iterating ove the 
+
+
+fromkeys(iterable,value=none)
+pop()
+popitem()00
+setdefault(element,default=0)

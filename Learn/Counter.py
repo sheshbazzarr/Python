@@ -4,11 +4,13 @@ counter=Counter(my_list)
 print(counter)
 
 #accessing counter
-print(counter['a']
-print(counter.ger('b'))
+print(counter['a'])
+print(counter.get('b'))
 
 
 #update
 counter.update(['a','b','b','c','a'])
 print(counter)
-
+print(list(counter.most_common(2)))
+print(list(counter.elements()))
+print(type(counter))
