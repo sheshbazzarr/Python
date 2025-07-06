@@ -9,6 +9,7 @@ def sort(array):
                 array[j+1]=array[j]
                 insert_postion-=1
         array[insert_postion]=insert_element
+
 def main():
     scores=[80,70,60,50,95]
     sort(scores)
